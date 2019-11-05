@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+ font-family: 'Noto Sans KR', sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family:'Noto Sans KR';
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+    letter-spacing: -1px;
+}
+.logo_wrap {
+    width: 20%;
+    float: left;
+}
+
+.logo {
+    float: left;
+}
+
+.incontent {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+}
+
+.title01 {
+    margin: 40px 0;
+    font-size: 40px;
+    font-family: 'Noto Sans KR';
+    line-height: 44px;
+}
+
+li {
+	list-style: none;
+}
+
+.stepbox ul {
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 0px;
+}
+
+ul .step01 {
+    width: 260px;
+}
+
+
+.stepbox li {
+    float: left;
+    position: relative;
+    padding: 28px 0 0 40px;
+    height: 120px;
+}
+
+.stepbox li.on {
+    background: #E60012;
+    border: 1px solid #E60012;
+    width: 370px;
+}
+
+ul .step03 .st_num, ul .step03 .st_name {
+    color: #fff;
+}
+
+.st_num {
+    display: block;
+    margin: 0 0 14px;
+    font-size: 16px;
+}
+
+.st_name {
+    font-size: 26px;
+}
+
+ul .step01, ul .step02 {
+    width: 364px;
+}
+
+.stepbox.type03 {
+    margin-bottom: 40px;
+}
+
+.stepbox li {
+    float: left;
+    position: relative;
+    padding: 28px 0 0 40px;
+    border: 1px solid #ccc;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+ul .step01 .st_num, ul .step01 .st_name,
+ul .step02 .st_num, ul .step02 .st_name {
+    color: #666;
+}
+
+.stepbox ul:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.title02 {
+    padding-left: 300px;
+    font-size: 45px;
+    margin:100px 0 auto;
+    font-family: 'Noto Sans KR';
+    margin-bottom:20px;
+}
+
+p {
+    padding-left: 300px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR';
+}
+
+span {
+  color: #189ad3;
+}
+
+.btn.homeBtn {
+    margin-left: 500px;
+    padding: 0 20px;
+    min-width: 80px;
+    height: 50px;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    line-height: 30px;
+    font-family: 'Noto Sans KR';
+}

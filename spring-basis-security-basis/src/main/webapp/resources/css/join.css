@@ -1,0 +1,327 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+font-family: 'Noto Sans KR ', sans-serif ;
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Noto Sans KR';
+	font-size: 14px;
+	line-height: 1.2;
+	color: #000;
+	letter-spacing: -1px;
+}
+
+.logo_wrap {
+	width: 20%;
+	float: left;
+}
+
+.logo {
+	float: left;
+}
+
+.incontent {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 100px 0 80px;
+}
+
+.title01 {
+	margin: 0 0 36px;
+	font-size: 40px;
+	font-family: 'NotoSansBold';
+	line-height: 44px;
+}
+
+li {
+	list-style: none;
+}
+
+.stepbox ul {
+	overflow: hidden;
+	display: inline-block;
+	padding-left: 0px;
+}
+
+ul .step02 {
+	width: 364px;
+}
+
+.stepbox li {
+	float: left;
+	position: relative;
+	padding: 28px 0 0 40px;
+	border: 1px solid #ccc;
+	height: 120px;
+	box-sizing: border-box;
+}
+
+.stepbox li.on {
+	background: #6c7688;
+	border: 1px solid #E60012;
+	width: 370px;
+}
+
+.step02 .st_num,.step02 .st_name {
+	color: #fff;
+}
+
+.st_num {
+	display: block;
+	margin: 0 0 14px;
+	font-size: 16px;
+}
+
+.st_name {
+	font-size: 26px;
+}
+
+ul .step01, ul .step03 {
+	width: 364px;
+}
+
+ul .step01 .st_num, ul .step01 .st_name,ul .step02 .st_num, ul .step02 .st_name, ul .step03 .st_num, ul .step03 .st_name
+	{
+	color: #666;
+}
+
+.stepbox.type02 {
+	margin-bottom: 40px;
+}
+
+.stepbox ul:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.tbl_hwrap {
+	position: relative;
+}
+
+.l_box {
+	float: left;
+}
+
+.r_box {
+	float: right;
+}
+
+.tbl_hwrap:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.tbl_htitle {
+	margin: 0 0 18px;
+	font-size: 26px;
+	color: #000;
+}
+
+.tbl_sup.imprt {
+	display: block;
+	padding: 0 0 0 15px;
+	background: url(/static/mhp/images/bu/bu_table_essential.png) no-repeat
+		left 4px;
+	font-size: 14px;
+	color: #6c7688;
+	vertical-align: bottom;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+	font-weight: normal;
+	word-wrap: break-word;
+}
+
+table {
+	width: 100%;
+}
+
+.tbl_detail {
+	border-top: 2px solid #222;
+	border-bottom: 1px solid #666;
+}
+
+.tbl_detail th {
+	padding: 17px 16px 21px;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+.tbl_detail th, .tbl_detail td {
+	border-top: 1px solid #ccc;
+	color: #000;
+	text-align: left;
+}
+
+label {
+	cursor: default;
+}
+
+.color_gy6 {
+	color: #666 !important;
+	width: 188px;
+	height: 32px;
+}
+
+.tbl_wrap .tbl_ess {
+	position: relative;
+	display: block;
+	font-family: 'Noto Sans KR'
+}
+
+.inp_grouping {
+	text-align: left;
+}
+
+.inp_wrap {
+	display: inline-block;
+	margin-left: 20px;
+	border: none;
+}
+
+.inputS {
+	width: 400px;
+	font-size: 18px;
+	border: none;
+}
+
+.inputS.email, .inputS.phnum, .inputS.pw, .inputS.address, .inputS.age,
+	.inputS.ownerNum {
+	width: 200px !important;
+	font-family: 'Noto Sans KR';
+	font-size: 18px;
+}
+
+.inputS.address_long {
+	width: 700px !important;
+	font-size: 18px;
+}
+
+.inputS[type="password"] {
+	height: 28px;
+	line-height: 28px;
+	vertical-align: middle;
+}
+
+.inputS[type="date"] {
+	font-family: 'Noto Sans KR';
+}
+
+.inputS.address, .inputS.address_long {
+	margin: 20px 0 20px;
+}
+
+.btn.adrBtn {
+	margin: 0;
+	padding: 0 20px;
+	min-width: 80px;
+	height: 50px;
+	font-size: 18px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #000;
+	line-height: 30px;
+}
+
+.sexSpan {
+	text-align: left;
+	font-size: 18px;
+	color: #000;
+}
+
+.email_atsign {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 50px;
+	text-align: center;
+}
+
+.select_wrap {
+	display: inline-block;
+	margin-left: 20px;
+	border: none;
+}
+
+.select_spaceL {
+	margin-left: 20px !important;
+	color: #000;
+	text-align: left;
+}
+
+.inp_grouping:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.tbl_wrap {
+	margin-bottom: 40px;
+}
+
+.btn_wrap {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.btn_wrap .btn+.btn, .btm_grouping .btn+.btn {
+	margin-left: 6px;
+}
+
+.btn_wrap:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.btn.midBtn01 {
+	margin: 0;
+	padding: 0 30px;
+	min-width: 120px;
+	height: 50px;
+	font-size: 18px;
+	background: #000;
+	color: #fff;
+	line-height: 50px;
+	border: 1px solid #ccc;
+}
+
+.btn.midBtn02 {
+	margin: 0;
+	padding: 0 28px;
+	min-width: 120px;
+	height: 50px;
+	font-size: 18px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #000;
+	line-height: 48px;
+}
+
+.select_spaceL+.error_txt {
+	display: block;
+	margin: 14px 0 0;
+}
+
+table .error_txt {
+	display: inline-block;
+	margin-left: 20px;
+	color: #ff626f !important;
+}

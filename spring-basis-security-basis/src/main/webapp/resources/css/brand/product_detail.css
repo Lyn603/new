@@ -1,0 +1,117 @@
+.content{
+		padding-top: 150px;
+	}  
+	.product{  
+		border: 1px solid #ddd;
+	    height: 600px;
+	    width: 1140px;
+	    margin: auto; 
+	} 
+	.left{
+		float:left; 
+	} 
+	.right{
+		float:right;
+		margin-top:30px;
+		margin-right:50px;
+	} 
+	.product:after{
+		content:"";
+		display:block;
+		clear:both;    
+		
+	}
+	.brand{
+		padding-top:20px;
+		font-size:18px;
+		font-weight:800;  
+	} 
+	.name{
+		font-size:24px; 
+		font-weight:800;     
+	}  
+	.img{
+		width:60px; 
+		border: 1px solid #ddd;
+		margin-bottom:40px;
+	}  
+	.image{
+		float:left; 
+	}
+	.thumbnail img{
+		width:400px;   
+	}     
+	.pay img{
+		height: 50px;
+	    margin-top: 120px;
+	    border: 1px solid rgb(255,224,1);
+	    background: rgb(255,224,1);
+	}  
+	.line-1 li ,
+	.line-2 li ,.line-3 li ,
+	.purchase li{
+		float:left; 
+	}  
+	.title{  
+		font-size:16px; 
+		font-weight:900;
+		padding-top:10px;  
+	}   
+	.product-price{
+       font-size: 24px;
+	   font-weight: 900;
+	   text-align: right;
+	   width: 434px;
+	   padding-top: 3.5px;
+	}
+	.discount-info{
+		text-align: right;
+	    padding-top: 14px;
+	    margin-left: 308px;
+	    font-size: 12px; 
+	}
+	.delivery-info{
+	    padding: 11.5px;
+	    font-size: 13px;
+	    margin-left: 8px;
+	} 
+	.pay_red{
+	    width: 164.68px;
+	    color: white;
+	    background: red;
+	    border: 1px solid red;
+	    font-size: 20.3px;
+	    text-align: center;
+	    font-weight: 900;
+	    margin-right: 30px;
+	    padding-top: 11px;
+	    padding-bottom: 11px;
+	    margin-top: 120px; 
+	}
+	.size-list{
+		border: 1px solid #191919;
+	    padding: 5px;
+	    font-size: 14px;
+	    width: 43px;
+	    text-align: center;
+	    color: #191919; 
+	    margin-top: 10px;
+	}
+	.size-list-ul{
+		float:left; 
+		padding-right:10px; 
+		padding-left:0px;
+	} 
+	.total-pay{
+		text-align: right;
+	    border-top: 1px solid #ddd;
+	    padding-top: 10px;
+	}
+	.total-pay span{
+		font-weight: 800;
+	}
+	.total-pay strong{
+	    color: red;
+	    font-size: 28px;
+	    margin-left: 30px;
+	}

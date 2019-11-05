@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+  	<typeAliases>
+   		<typeAlias alias="JoinUser" type="com.wan.basis.dto.JoinUser"/>
+   		<typeAlias alias="ProductDTO" type="com.wan.basis.dto.ProductDTO"/>
+    </typeAliases>
+    <mappers>		
+   		<mapper resource ="mappers/JoinUserDAO-Mapper.xml"/>
+   		<mapper resource ="mappers/porduct_mapper.xml"/>
+	</mappers>	
+</configuration>
+

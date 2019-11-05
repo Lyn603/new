@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.wan.basis.dao.ProductDAO">
+	
+	<insert id="Enrollment" parameterType="ProductDTO">
+		INSERT INTO product VALUES
+		(null,#{product},#{who},#{categori},#{brand},#{size},#{price},#{color},#{thumbnail},#{img});
+	</insert>
+	
+	<select id="getProductById" parameterType="ProductDTO" resultType="ProductDTO">
+		SELECT * FROM product WHERE id=#{id};
+	</select>  
+	
+	<select id="nike_list" resultType="ProductDTO">
+		SELECT * FROM product where brand='nike' ORDER BY id asc 
+	</select>
+	
+	<select id="adidas_list" resultType="ProductDTO">
+		SELECT * FROM product where brand='adidas' ORDER BY id asc 
+	</select>
+	
+	<select id="puma_list" resultType="ProductDTO">
+		SELECT * FROM product where brand='puma' ORDER BY id asc 
+	</select>
+	
+	<select id="fila_list" resultType="ProductDTO">
+		SELECT * FROM product where brand='fila' ORDER BY id asc 
+	</select>
+	
+	<select id="lacoste" resultType="ProductDTO">
+		SELECT * FROM product where brand='lacoste' ORDER BY id asc 
+	</select>
+</mapper> 

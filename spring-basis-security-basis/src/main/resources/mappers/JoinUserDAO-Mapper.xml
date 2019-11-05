@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wan.basis.dao.JoinDAO">
+	
+	<insert id="insertUser" parameterType="JoinUser"
+		useGeneratedKeys="true">
+		INSERT INTO tbl_user VALUES
+		(#{name},#{email},#{password},#{phone},#{address},#{sex},#{age},curtime(),1,#{checkEmail});
+	</insert>
+
+	<update id="joinSuccess" parameterType="Map" 
+		useGeneratedKeys="true">
+		UPDATE tbl_user SET checkEmail = 'Y' WHERE email=#{param1} AND
+		checkEmail=#{param2}
+	</update>
+		
+	<select id="getPw" resultType="String">
+		SELECT password 
+		FROM tbl_user
+		WHERE email=#{email}
+	</select>
+	
+	<select id="allInfo" parameterType="JoinUser" resultType="JoinUser">
+		SELECT * FROM tbl_user WHERE email=#{email};
+	</select>
+	
+</mapper>
